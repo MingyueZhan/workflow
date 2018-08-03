@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="457f26f3-c491-4bde-bb4f-117ee909bba1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="parallel.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/parallel.xml">
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParellelGataway.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/activiti/ParellelGataway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2357">
+              <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/startprocess/Start.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReceiveTaskTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/recievetask/ReceiveTaskTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receive.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/receive.xml">
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receive.bpmn" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/receive.bpmn">
+          <provider selected="true" editor-type-id="bpmn-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/receive.xml" pinned="false" current-in-tab="false">
+        <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/receive.xml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>BPMN_2_0</ID>
+              <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/receive.xml</OriginalElement>
+              <nodes>
+                <node x="27.5" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @163431</node>
+                <node x="10.0" y="192.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163438</node>
+                <node x="10.0" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163434</node>
+                <node x="30.5" y="288.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @163442</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163434" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163438">
+                  <point x="0.0" y="21.0" />
+                  <point x="0.0" y="-21.0" />
+                </edge>
+                <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @163431" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163434">
+                  <point x="0.0" y="21.0" />
+                  <point x="0.0" y="-21.0" />
+                </edge>
+                <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163438" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @163442">
+                  <point x="0.0" y="21.0" />
+                  <point x="0.0" y="-21.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-352.0" y="109.0" />
+              <SelectedNodes>
+                <node>interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @163431</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Details</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.bpmn" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/start.bpmn">
+          <provider selected="true" editor-type-id="bpmn-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/start.xml">
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/start.xml" pinned="false" current-in-tab="false">
+        <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/start.xml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>BPMN_2_0</ID>
+              <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/start.xml</OriginalElement>
+              <nodes>
+                <node x="13.0" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @144323</node>
+                <node x="10.0" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @144320</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @144320" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @144323">
+                  <point x="0.0" y="21.0" />
+                  <point x="0.0" y="-21.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-379.5" y="10.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Details</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+        <option value="BpmnFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/bean/LeaveBill.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/leave.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/TaskLisennerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testVariables.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/testVariables.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/leave.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/testVariable.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/LeaveActivitiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fenzhi.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fenzhi.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/sequenceProcess.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/sequence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/ActivitiTest3.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sequence.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/ss.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/ss.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/name.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/ActivitiTest4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/LeaveTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/exclusiveProcess.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/test1.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/exclusiveProcess.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/test1.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/exclusive.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/exclusive.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/excu.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/excu.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/ExclusiveGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/ParallelGataway.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/parallel.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/parallel.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/activiti/ParellelGataway.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/start.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/startprocess/Start.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/receive.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/receive.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/recievetask/ReceiveTaskTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MvnRepo" />
+        <option name="mavenHome" value="E:/maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="21" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="activi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recievetask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recievetask" type="462c0819:PsiDirectoryNode" />
+              <item name="ReceiveTaskTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="activi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workflow\activi\src\main\resources" />
+      <recent name="E:\workflow\activi\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workflow\activi\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ReceiveTaskTest.start">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="ReceiveTaskTest.deploy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="recievetask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="activi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="recievetask" />
+      <option name="MAIN_CLASS_NAME" value="recievetask.ReceiveTaskTest" />
+      <option name="METHOD_NAME" value="deploy" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ReceiveTaskTest.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="recievetask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="activi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="recievetask" />
+      <option name="MAIN_CLASS_NAME" value="recievetask.ReceiveTaskTest" />
+      <option name="METHOD_NAME" value="start" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Start.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="startprocess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="activi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="startprocess" />
+      <option name="MAIN_CLASS_NAME" value="startprocess.Start" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Start.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="startprocess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="activi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="startprocess" />
+      <option name="MAIN_CLASS_NAME" value="startprocess.Start" />
+      <option name="METHOD_NAME" value="select" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Start.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="startprocess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="activi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="startprocess" />
+      <option name="MAIN_CLASS_NAME" value="startprocess.Start" />
+      <option name="METHOD_NAME" value="start" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Start.start" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Start.search" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Start.select" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ReceiveTaskTest.deploy" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ReceiveTaskTest.start" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ReceiveTaskTest.start" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ReceiveTaskTest.deploy" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Start.select" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Start.search" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Start.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="457f26f3-c491-4bde-bb4f-117ee909bba1" name="Default" comment="" />
+      <created>1532572352268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532572352268</updated>
+      <workItem from="1532572355368" duration="8816000" />
+      <workItem from="1532586949694" duration="13005000" />
+      <workItem from="1532655470858" duration="8418000" />
+      <workItem from="1532683889934" duration="2470000" />
+      <workItem from="1532913264178" duration="13049000" />
+      <workItem from="1532933666973" duration="1276000" />
+      <workItem from="1532934975637" duration="1558000" />
+      <workItem from="1532936558441" duration="7441000" />
+      <workItem from="1533000760619" duration="18064000" />
+      <workItem from="1533029697291" duration="1362000" />
+      <workItem from="1533085784369" duration="12705000" />
+      <workItem from="1533108023446" duration="8685000" />
+      <workItem from="1533173372671" duration="4161000" />
+      <workItem from="1533193754649" duration="386000" />
+      <workItem from="1533194177093" duration="12828000" />
+      <workItem from="1533258628017" duration="13722000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 53m 31s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 54m 20s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 54m 28s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 54m 31s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 54m 34s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 54m 37s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 54m 41s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 56m 26s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 56m 48s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveTaskTest_start - 2018.08.03 at 17h 57m 23s.xml">
+      <configuration name="ReceiveTaskTest.start" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="127946000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16587678" sideWeight="0.512987" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116113745" sideWeight="0.48701298" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21445498" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2624459" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14069264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13625592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21861471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26406926" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fenzhi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/activiti-6.0.0/wars/WEB-INF/lib/slf4j-log4j12-1.7.6.jar!/org/slf4j/impl/StaticLoggerBinder.class" />
+    <entry file="jar://$USER_HOME$/Desktop/activiti-6.0.0/wars/WEB-INF/lib/slf4j-log4j12-1.7.6.jar!/org/slf4j/impl/Log4jMDCAdapter.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti/LeaveActivitiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fenzhi.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sequenceProcess.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sequenceProcess.bpmn" />
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/sequence.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/sequence.xml</OriginalElement>
+          <nodes>
+            <node x="65.75" y="0.0">&lt;invalid&gt;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-213.0" y="142.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sequence.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sequence.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sequence.bpmn" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fenzhi.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/ss.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/ss.xml</OriginalElement>
+          <nodes>
+            <node x="43.75" y="301.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @59781</node>
+            <node x="37.75" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @59778</node>
+            <node x="10.0" y="195.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @59789</node>
+            <node x="41.25" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @59784</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @59784" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @59789">
+              <point x="-24.25" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @59789" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @59781">
+              <point x="0.0" y="21.0" />
+              <point x="65.5" y="281.0" />
+              <point x="68.25" y="281.0" />
+              <point x="-24.5" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @59778" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @59784">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @59784" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @59781">
+              <point x="24.25" y="21.0" />
+              <point x="114.0" y="148.0" />
+              <point x="138.0" y="148.0" />
+              <point x="138.0" y="274.0" />
+              <point x="117.25" y="274.0" />
+              <point x="24.5" y="-21.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-240.0" y="183.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/name.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/interceptor/CommandContextInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/exclusiveProcess.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/exclusiveProcess.xml</OriginalElement>
+          <nodes>
+            <node x="150.5" y="404.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @139095</node>
+            <node x="137.0" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139032</node>
+            <node x="165.0" y="298.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139045</node>
+            <node x="10.0" y="298.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139040</node>
+            <node x="264.0" y="298.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139050</node>
+            <node x="126.0" y="192.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @139036</node>
+            <node x="147.5" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @139029</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139045" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @139095">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @139029" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139032">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139032" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @139036">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @139036" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139050">
+              <point x="49.0" y="21.0" />
+              <point x="248.5" y="244.0" />
+              <point x="319.5" y="244.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @139036" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139040">
+              <point x="-49.0" y="21.0" />
+              <point x="150.5" y="244.0" />
+              <point x="72.5" y="244.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139040" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @139095">
+              <point x="0.0" y="21.0" />
+              <point x="72.5" y="384.0" />
+              <point x="166.83333333333331" y="384.0" />
+              <point x="-32.666666666666686" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @139036" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139045">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @139050" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @139095">
+              <point x="0.0" y="21.0" />
+              <point x="319.5" y="384.0" />
+              <point x="232.16666666666669" y="384.0" />
+              <point x="32.666666666666686" y="-21.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-123.0" y="211.0" />
+          <SelectedNodes>
+            <node>interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @139095</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti/LeaveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/test1.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/test1.xml</OriginalElement>
+          <nodes>
+            <node x="140.0" y="202.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @212148</node>
+            <node x="10.0" y="202.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @212144</node>
+            <node x="22.25" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @212140</node>
+            <node x="62.75" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @212137</node>
+            <node x="44.0" y="308.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @212152</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @212140" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @212144">
+              <point x="-37.75" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @212148" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @212152">
+              <point x="0.0" y="21.0" />
+              <point x="190.0" y="288.0" />
+              <point x="92.0" y="288.0" />
+              <point x="16.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @212144" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @212152">
+              <point x="0.0" y="21.0" />
+              <point x="-16.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @212140" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @212148">
+              <point x="37.75" y="21.0" />
+              <point x="135.5" y="148.0" />
+              <point x="190.0" y="148.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @212137" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @212140">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-321.0" y="149.0" />
+          <SelectedNodes>
+            <node>interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @212148</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/exclusiveProcess.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="12" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test1.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/exclusiveProcess.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/exclusiveProcess.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti/ActivitiTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test1.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/exclusive.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/exclusive.xml</OriginalElement>
+          <nodes>
+            <node x="137.0" y="96.0">&lt;invalid&gt;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-139.5" y="71.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/exclusive.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/exclusive.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/excu.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/excu.xml</OriginalElement>
+          <nodes>
+            <node x="137.0" y="298.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33816</node>
+            <node x="264.0" y="298.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33811</node>
+            <node x="133.5" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @33803</node>
+            <node x="151.0" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33806</node>
+            <node x="112.0" y="192.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @33826</node>
+            <node x="136.5" y="404.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @33830</node>
+            <node x="10.0" y="298.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33821</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @33803" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33806">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @33826" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33811">
+              <point x="49.0" y="21.0" />
+              <point x="234.5" y="244.0" />
+              <point x="298.5" y="244.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33811" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @33830">
+              <point x="0.0" y="21.0" />
+              <point x="298.5" y="384.0" />
+              <point x="218.16666666666669" y="384.0" />
+              <point x="32.666666666666686" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @33826" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33821">
+              <point x="-49.0" y="21.0" />
+              <point x="136.5" y="244.0" />
+              <point x="58.5" y="244.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33821" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @33830">
+              <point x="0.0" y="21.0" />
+              <point x="58.5" y="384.0" />
+              <point x="152.83333333333331" y="384.0" />
+              <point x="-32.666666666666686" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33816" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @33830">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @33826" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33816">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33806" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TExclusiveGateway @33826">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-140.0" y="76.0" />
+          <SelectedNodes>
+            <node>interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @33816</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/excu.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/excu.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti/ExclusiveGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti/ActivitiTest4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ss.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ss.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/parallel.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/parallel.xml</OriginalElement>
+          <nodes>
+            <node x="236.0" y="202.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84836</node>
+            <node x="96.0" y="503.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84860</node>
+            <node x="96.0" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84832</node>
+            <node x="130.0" y="599.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84864</node>
+            <node x="115.5" y="695.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @84869</node>
+            <node x="61.75" y="308.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84851</node>
+            <node x="81.75" y="404.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84855</node>
+            <node x="123.0" y="202.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84846</node>
+            <node x="10.0" y="202.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84841</node>
+            <node x="112.5" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @84829</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84832" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84841">
+              <point x="-45.66666666666667" y="21.0" />
+              <point x="118.83333333333333" y="148.0" />
+              <point x="51.5" y="148.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84846" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84851">
+              <point x="0.0" y="21.0" />
+              <point x="34.25" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84855" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84860">
+              <point x="0.0" y="21.0" />
+              <point x="-34.25" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84864" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @84869">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84841" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84851">
+              <point x="0.0" y="21.0" />
+              <point x="51.5" y="288.0" />
+              <point x="96.0" y="288.0" />
+              <point x="-34.25" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84832" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84836">
+              <point x="45.666666666666686" y="21.0" />
+              <point x="210.16666666666669" y="148.0" />
+              <point x="270.5" y="148.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84851" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84855">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84860" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84864">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84832" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84846">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @84829" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84832">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @84836" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TParallelGateway @84860">
+              <point x="0.0" y="21.0" />
+              <point x="270.5" y="483.0" />
+              <point x="198.75" y="483.0" />
+              <point x="34.25" y="-21.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.750330250990753" x="-257.650528169014" y="309.85915492957747" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parallel.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti/ParallelGataway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti/ParellelGataway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2357">
+          <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/start.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/start.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/start.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/start.xml</OriginalElement>
+          <nodes>
+            <node x="13.0" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @144323</node>
+            <node x="10.0" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @144320</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @144320" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @144323">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-379.5" y="10.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/receive.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=E:/workflow/activi/src/main/resources/receive.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=E:/workflow/activi/src/main/resources/receive.xml</OriginalElement>
+          <nodes>
+            <node x="27.5" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @163431</node>
+            <node x="10.0" y="192.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163438</node>
+            <node x="10.0" y="96.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163434</node>
+            <node x="30.5" y="288.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @163442</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163434" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163438">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @163431" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163434">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TReceiveTask @163438" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @163442">
+              <point x="0.0" y="21.0" />
+              <point x="0.0" y="-21.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-352.0" y="109.0" />
+          <SelectedNodes>
+            <node>interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @163431</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/startprocess/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parallel.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/receive.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recievetask/ReceiveTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (activi)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>activi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:jdbc.properties</value>
+            </list>
+        </property>
+    </bean>
+    <!--首先需要定义一个数据源-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/activiti_1110?useSSL=true" />
+        <property name="username" value="root" />
+        <property name="password" value="1234" />
+    </bean>
+
+    <bean id="uuidGenerator" class="org.activiti.engine.impl.persistence.StrongUuidGenerator"></bean>
+    <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="idGenerator" ref="uuidGenerator"></property>
+
+        <!--activiti 默认提供了4中历史级别是否保存历史数据。-->
+        <!--value的值可包括{none， 不报存任何历史记录，可以提高系统性能；activiti保存所有的流程实例，任务，活动信息等；audit是activiti的关于历史记录的默认选项，默认保存所有的流程实例，任务，活动，
+        表单属性；；full：最完整的历史记录，除了包含audit级别的信息以外，还能保存详细，比如像流程变量等。
+        }-->
+        <property name="history" value="audit"></property>
+
+        <property name="processDefinitionCacheLimit" value="10"></property>
+
+
+        <!--可以自己来定义自己的缓存实现，只不过对于自定义的缓存是必须要实现org.activiti.engine.impl.persistent.deploy.DeploymentCache接口中的bean-->
+        <!--
+        在这里介绍一下databaseSchemaUpdate 设置流程引擎启动和关闭时如何处理数据库表。
+
+        数据库升级
+        当值为true时在构建流程引擎时，执行检查，如果需要就执行更新，如果表不存在，就创建。
+        同理：当值为false时检查数据库标表的版本和依赖库的版本，如果版本不匹配就抛出异常。
+        当值为create-drop:构建流程引擎时创建数据库表，关闭流程引擎时删除这些表。
+        -->
+        <property name="databaseSchemaUpdate" value="true" />
+    </bean>
+
+</beans>
